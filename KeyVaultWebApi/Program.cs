@@ -32,16 +32,6 @@ if (app.Environment.IsDevelopment())
 }
 
 
-
-//app.UseStaticFiles(new StaticFileOptions
-//{
-//    FileProvider = new PhysicalFileProvider
-//    (
-//        Path.Combine(builder.Environment.ContentRootPath, "/")
-//    ),
-//    RequestPath = "/",
-  
-//});
 app.UseHttpsRedirection();
 
 app.UseAuthorization();
